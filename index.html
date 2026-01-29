@@ -26,4 +26,129 @@
     }
 
     .side-image {
-      w
+      width: 25%;
+    }
+
+    .side-image img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .content {
+      width: 50%;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    h1, h2 {
+      color: #e84c9b;
+      text-align: center;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .prices p {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 6px 0;
+    }
+
+    footer {
+      background-color: #e84c9b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .side-image, .content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER IMAGE -->
+  <header>
+    <img src="header.jpg" alt="In Loving Care LLC Home Care">
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <!-- LEFT IMAGE -->
+    <div class="side-image">
+      <img src="caregiver1.jpg" alt="Caregiver assisting elderly client">
+    </div>
+
+    <!-- CENTER CONTENT -->
+    <div class="content">
+      <h1>In Loving Care LLC</h1>
+      <p style="text-align:center;">
+        Compassionate Homemaker & Companion Care Services
+      </p>
+
+      <h2>About Us</h2>
+      <p>
+        We are licensed CNAs, HHAs, Med Techs, and experienced caregivers dedicated
+        to delivering outstanding private duty home care services. Our goal is to
+        provide respectful, compassionate, and reliable care in the comfort of your home.
+      </p>
+
+      <h2>Services</h2>
+      <ul>
+        <li>Homemaker Services</li>
+        <li>Companion Care</li>
+        <li>Personal Care Assistance</li>
+        <li>Assistance with All ADLs</li>
+        <li>Mobile Care Services</li>
+        <li>24-Hour & Live-In Care</li>
+      </ul>
+
+      <h2>Pricing</h2>
+      <div class="prices">
+        <p><span>2 Hours</span><span>$25.00 and up</span></p>
+        <p><span>4 Hours</span><span>$20.00 and up</span></p>
+        <p><span>Special Services</span><span>$22.00 and up</span></p>
+        <p><span>24hr & Live-In</span><span>$20.00 and up</span></p>
+      </div>
+
+      <p style="text-align:center; font-style: italic;">
+        All prices subject to negotiation
+      </p>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="side-image">
+      <img src="caregiver2.jpg" alt="Smiling caregiver in scrubs">
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>📞 (904) 882-0549</p>
+    <p>📧 <a href="mailto:inlovcare2025@gmail.com">inlovcare2025@gmail.com</a></p>
+    <p>Owner: Mary Handy-Peterson</p>
+    <p>© 2026 In Loving Care LLC</p>
+  </footer>
+
+</body>
+</html>
